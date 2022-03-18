@@ -18,7 +18,7 @@ print(secretword) #print the word.. but hidden
 
 
 
-while (tries == 7) and secretword != word: # do this loop while you still have enough lives and teh word hasnt been guessed. only for first question
+while (tries == 7) and secretword != word: # do this loop while you still have enough lives and the word has not been guessed. only for first question
     
     newsecretword = "" # for us to update the word and replace with correct letters
     guess = input("Please enter your guess: ")
@@ -99,24 +99,3 @@ if tries == 0:
 if secretword == word:
 	print(f"\n  Congradulations you win")
 	time.sleep(5)
-
-
-
-
-            
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
